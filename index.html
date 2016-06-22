@@ -15,21 +15,22 @@
 			<h1>CheatSheetVim</h1>
 			<p>The Cheatsheet for Vim Editor</p>
 		</header>
-
+		
+		<div class="flex">
 		<nav>
-			<a href="#">Cursor Movement</a>
-			<a href="#">Insert Mode</a>
-			<a href="#">Editing</a>
-			<a href="#">Cut And Paste</a>
-			<a href="#">Search And Replace</a>
-			<a href="#">marking Text (visual command)</a>
-			<a href="#">Working with multiple files</a>
-			<a href="#">Exiting</a>
+			<a href="#cursor">Cursor Movement</a>
+			<a href="#insert">Insert Mode</a>
+			<a href="#editing">Editing</a>
+			<a href="#cut">Cut And Paste</a>
+			<a href="#search">Search And Replace</a>
+			<a href="#text">marking Text (visual command)</a>
+			<a href="#visual">Visual Command</a>
+			<a href="#exiting">Exiting</a>
 		</nav>
 		
 		<section>
 			<article>
-				<h1>Cursor Movement</h1>
+				<h1 id="cursor">Cursor Movement</h1>
 				<p><strong>h</strong> - move cursor left</p>
 				<p><strong>j</strong> - move cursor down</p>
 				<p><strong>k</strong> - move cursor up</p>
@@ -46,8 +47,8 @@
 			</article>
 
 			<article>
-				<h1>Insert Mode</h1>
-				<p><strong>i</strong> - nsert before the cursor</p>
+				<h1 id="insert">Insert Mode</h1>
+				<p><strong>i</strong> - insert before the cursor</p>
 				<p><strong>I</strong> - insert at the beginning of the line</p>
 				<p><strong>a</strong> - insert(append)after the curseur</p>
 				<p><strong>A</strong> - insert at the end of line</p>
@@ -58,7 +59,7 @@
 			</article>
 			
 			<article>
-				<h1>Editing</h1>
+				<h1 id="editing">Editing</h1>
 				<p><strong>r</strong> - replace a single character</p>
 				<p><strong>j</strong> - join line below to the current ne</p>
 				<p><strong>cc</strong> - change(replace) entire line</p>
@@ -72,7 +73,7 @@
 			</article>
 
 			<article>
-				<h1>Cut And Paste</h1>
+				<h1 id="cut">Cut And Paste</h1>
 				<p><strong>yy</strong> - yank(copy) a line</p>
 				<p><strong>2yy</strong> - yank 2 lines</p>
 				<p><strong>yw</strong> - yank word</p>
@@ -88,7 +89,7 @@
 			</article>
 
 			<article>
-				<h1>Search And Replace</h1>
+				<h1 id="search">Search And Replace</h1>
 				<p><strong>/PATTERN</strong> - earch for pattern</p>
 				<p><strong>?PATTERN</strong> - Search backward for pattern</p>
 				<p><strong>n</strong> - repeat search in same direction</p>
@@ -98,7 +99,7 @@
 			</article>
 
 			<article>
-				<h1>Marking Text(visual mode)</h1>
+				<h1 id="text">Marking Text(visual mode)</h1>
 				<p><strong>v</strong> - start visual mode, mark lines, then do a command</p>
 				<p><strong>V</strong> - start linewise visual mode</p>
 				<p><strong>o</strong> - move to other end of marked aera</p>
@@ -111,7 +112,7 @@
 			</article>
 
 			<article>
-				<h1>Visual Commands</h1>
+				<h1 id="visual">Visual Commands</h1>
 				<p><strong>&gt</strong> - shift text right</p>
 				<p><strong>&lt</strong> - shift text left</p>
 				<p><strong>o</strong> - move to other end of marked aera</p>
@@ -120,15 +121,13 @@
 			</article>
 			
 			<article>
-				<h1>Exiting</h1>
+				<h1 id="exiting">Exiting</h1>
 				<p><strong>:w</strong> - write the file, but don't exit</p>
 				<p><strong>:q</strong> - quit(fails if there are unsaving changes) </p>
 				<p><strong>:q!</strong> - quit ant throw away unsaving changes</p>
 				<p><strong>:wq or :x</strong> - write and quit</p>
 			</article>
 		</section>
-		
-		<footer>
-		</footer>
+		</div>	
 	</body>
 </html>

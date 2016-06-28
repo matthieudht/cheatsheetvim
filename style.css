@@ -57,6 +57,8 @@ nav a {
 }
 
 
+/* set article & section style */
+
 section {
 	display:flex;
     flex-wrap: wrap;
